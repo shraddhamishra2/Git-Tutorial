@@ -1,0 +1,39 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+* {
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 2%;
+  margin-bottom: 0;
+  border-radius: 5px;
+  /* padding: 10px; */
+}
+.grandparent_div {
+  padding: 2%;
+  margin: 2%;
+  border-radius: 10px;
+  gap: 2%;
+  display: grid;
+  /* display: flex; */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.parent_div {
+  border: 1px solid black;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+#title {
+  display: flex;
+  justify-content: center;
+}
